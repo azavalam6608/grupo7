@@ -1,0 +1,39 @@
+/* Estilos base (para móviles primero) */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: lightyellow;
+}
+
+.caja {
+  background-color: lightcoral;
+  color: white;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 8px;
+}
+
+/* 📌 Cuando el ancho mínimo es de 600px (tablets) */
+@media (min-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .caja {
+    background-color: steelblue;
+    width: 60%;
+  }
+}
+
+/* 📌 Cuando el ancho mínimo es de 900px (pantallas grandes) */
+@media (min-width: 900px) {
+  body {
+    background-color: lightgreen;
+  }
+
+  .caja {
+    background-color: seagreen;
+    width: 40%;
+  }
+}
